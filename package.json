@@ -1,0 +1,25 @@
+{
+  "name": "norway-travel-agency",
+  "version": "1.0.0",
+  "description": "Norway travel agency made with php",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "norway"
+  ],
+  "author": "Eva Gyomrey",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "gulp-install": "^1.1.0",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,17 @@
+.btn{
+	border: none;
+	width: 150px;
+	height: 50px;
+
+	&--submit{
+		background-color: $blue;
+		color: $white;
+		text-transform: uppercase;
+		font-size: 1rem;
+
+		&:hover{
+			background-color: darken($blue, 5%);
+		}
+	}
+
+}

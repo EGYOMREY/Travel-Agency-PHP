@@ -1,0 +1,22 @@
+.about {
+    margin-top: 0.5em;
+    text-align: center;
+
+    &__story {
+        font-size: 1.4rem;
+        line-height: 1.4em;
+
+        @extend %grid;
+
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            @include respond-to("sm-md") {
+                width: $col-8;
+            }
+        }
+    }
+}

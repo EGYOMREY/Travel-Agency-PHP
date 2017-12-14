@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+$font-stack: 'Barlow', sans-serif;
+
+
+/// COLORS
+$dark-gray: #424751;
+$gray: #666F7D;
+$light-gray: #D9D6D5;
+$blue: #679CD3;
+$light-blue: #B0D5ED;
+$white: #FFF;
+$black: #000;
+
+
+// BODY
+//
+// Settings for the `<body>` element.
+
+$body-bg: $blue;
+$body-color: $dark-gray;
+
+// LINKS
+//
+// Style anchor elements.
+$link-color: $white;
+$link-decoration: none;
+$link-hover-color: darken($light-gray, 5%);
+$link-hover-decoration: none;
+
+// Fonts
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-size-base: 1.1rem;
+$h1-font-size: $font-size-base * 2.2 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
+
+// Breakpoints
+$breakpoints: (
+	"small": (min-width: 580px),
+	"sm-md": (min-width: 650px),
+	 "medium": (min-width: 900px),
+	  "large": (min-width: 1200px)
+	  );

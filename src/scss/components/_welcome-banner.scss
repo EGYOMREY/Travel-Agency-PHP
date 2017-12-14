@@ -1,0 +1,10 @@
+.welcome-banner{
+	@include backgroundImg("about");
+	color: $black;
+	@extend %grid;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+
+
+}

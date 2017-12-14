@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// 2. Vendors
+
+@import "vendor/normalize";
+
+// 3. Base
+
+@import "base/base";
+@import "base/typography";
+
+// 4. Layout-related sections
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/home";
+@import "layout/footer";
+@import "layout/about";
+
+
+// 5. Components
+
+@import "components/navigation";
+@import "components/offers";
+@import "components/button";
+@import "components/newsletter";
+@import "components/welcome-banner";
+@import "components/tourism-agent-group";
+
+
+// 6. Page-specific styles
+//@import
+//  'pages/home';
+
+// 7. Themes
+//@import
+//  'themes/default';

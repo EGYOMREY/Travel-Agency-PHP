@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+  font-size: $font-size-base;
+  font-family: $font-stack;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+//Body basics
+
+body {
+  margin: 0;
+  padding: 0;
+  color: $body-color;
+  background: url('../images/noise-bg.png');
+}
+
+
+/**
+ * Basic styles for links
+ */
+a {
+  color: $link-color;
+  text-decoration: $link-decoration;
+}
+
+
+// Default styles for Unordened lists
+ul, li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+//Default images size
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+.container{
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+  
+}
