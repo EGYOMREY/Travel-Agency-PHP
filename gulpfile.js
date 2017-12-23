@@ -14,11 +14,11 @@ gulp.watch('**/*.php').on('change', function () {
   });
 
 
-// Static Server + watching scss/html files
+// Static Server + watching scss files
 gulp.task('serve', function() {
 
   browserSync.init({
-       proxy: "localhost/Norway-New/src"
+       proxy: "localhost/Travel-Agency-PHP/src"
   });
 
 
