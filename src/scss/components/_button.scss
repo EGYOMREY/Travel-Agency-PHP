@@ -2,6 +2,7 @@
 	border: none;
 	width: 150px;
 	height: 50px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 
 	&--submit{
 		background-color: $blue;
@@ -14,4 +15,21 @@
 		}
 	}
 
+	&--return{
+		width: 300px;
+		@extend %grid;
+		align-content: center;
+		justify-content: center;
+		align-items: center;
+		background-color: $gray;
+		color: $white;
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	}
+	
+	&--book{
+		margin: auto;
+		color: $blue;
+	}
 }
+
+

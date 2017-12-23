@@ -18,10 +18,9 @@
 
 @import "layout/grid";
 @import "layout/header";
-@import "layout/home";
+
 @import "layout/footer";
-@import "layout/about";
-@import "layout/contact";
+
 
 
 // 5. Components
@@ -30,13 +29,19 @@
 @import "components/offers";
 @import "components/button";
 @import "components/newsletter";
-@import "components/welcome-banner";
 @import "components/tourism-agent-group";
+@import "components/hotel-info";
+@import "components/plan-tip";
+@import "components/restaurant";
 
 
 // 6. Page-specific styles
-//@import
-//  'pages/home';
+@import "pages/home";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/hotels";
+@import "pages/planning";
+@import "pages/restaurants";
 
 // 7. Themes
 //@import

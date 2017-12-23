@@ -21,10 +21,8 @@
     }
 }
 
-@mixin backgroundImg($file, $type: jpg, $width: 100%, $height: 70px, $size: cover, $pos: center, $background-repeat: no-repeat) {
+@mixin backgroundImg($file, $type: jpg, $size: cover, $pos: center, $background-repeat: no-repeat) {
   background-image: url('../images/'+$file + '.jpg');
-  background-size: $width $height;
-  width: $width; height: $height;
   background-size: $size;
   background-position: $pos;
   background-repeat: $background-repeat;

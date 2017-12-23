@@ -1,7 +1,7 @@
 <?php
 	define("TITLE", "About Us | Norway Travel");
 	
-	require_once('inc/header.php');
+	require('inc/header.php');
 ?>
 <section class="container about">
 	
@@ -34,5 +34,5 @@
 	
 </section>
 <?php
-	require_once('inc/footer.php');
+	require('inc/footer.php');
 ?>

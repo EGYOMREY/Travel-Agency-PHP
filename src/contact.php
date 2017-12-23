@@ -1,9 +1,8 @@
 <?php
 	define("TITLE", "Contact Us | Norway Travel");
 	
-	require_once('inc/header.php');
+	require('inc/header.php');
 ?>
-
 <?php
 // Check for header injection
 function has_header_injection($str){
@@ -17,9 +16,8 @@ function has_header_injection($str){
 		if (has_header_injection($name) || has_header_injection($email)){
 			die(); //if true, kill the script
 		}
-
 		// Add the recipient message
-		$to = "murealism@gmail.com";
+		$to = "evamargy@gmail.com";
 		// Create a subject
 		$subject = "$name sent you a message!";
 		// Construct the message
@@ -41,42 +39,44 @@ function has_header_injection($str){
 		mail($to, $subject, $message, $headers);
 // show success message after email was sent
 ?>
-
-
-<h5>Thank you for contacting us!</h5>
-<p>Please allow us 24 hours for a response</p>
-<button href="index.php" class="btn">Go to home page</button>
+<div class="contact-response">
+	<h5>Thank you for contacting us!</h5>
+	<p>Please allow us 24 hours for a response</p>
+	<a href="index.php" class="btn btn--return" role="button">Go to Home page</a>
+</div>
 <?php
 //if the contact wasn't pressed yet
 } else {
 ?>
-<h1>Get in touch with us!</h1>
-<form method="post" action="" id="contact-form">
-	<label for="name">
-		<span>Your name</span>
-		<input type="text" id="name" name="name" placeholder="Eva Gyomrey" required autocomplete="name" autofocus>
-	</label>
-	
-	<label for="email">
-		<span>Your email</span>
-		<input type="email" id="email" name="email" placeholder="email@example.com"  autocomplete="email">
-	</label>
-	
-	<label for="message">
-		<span>and your message</span>
-		<textarea name="message" id="message"></textarea>
-	</label>
-	
-	<label for="subscribe">
-		<input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
-		<span>Subscribe to our Newsletter</span>
-	</label>
-	
-	<button type="submit" class="btn btn-default" name="submit">Send Message</button>
-</form>
+<div class="contact-form">
+	<h1>Get in touch with us!</h1>
+	<form method="post" action="" id="contact-form">
+		<div class="input-blocks">
+			<label for="name">
+				<span class="input-span">Name</span>
+				<input type="text" id="name" name="name" placeholder="Eva Gyomrey" required autocomplete="name" autofocus>
+			</label>
+			
+			<label for="email">
+				<span class="input-span">E-mail</span>
+				<input type="email" id="email" name="email" placeholder="email@example.com"  required autocomplete="email">
+			</label>
+			
+			<label for="message">
+				<span class="input-span">Message</span>
+				<textarea rows="5" name="message" required id="message"></textarea>
+			</label>
+		</div>
+		
+		<label for="subscribe" class="subscribe">
+			<input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+			<span>Subscribe to our Newsletter</span>
+		</label>
+		
+		<button type="submit" class="btn btn--submit" name="submit">Send Message</button>
+	</form>
+</div>
 <?php } ?>
-
-
 <?php
-	require_once('inc/footer.php');
+	require('inc/footer.php');
 ?>
