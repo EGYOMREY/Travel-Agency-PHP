@@ -1,5 +1,5 @@
 <?php
-	require_once('inc/arrays.php');
+	require('inc/arrays.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

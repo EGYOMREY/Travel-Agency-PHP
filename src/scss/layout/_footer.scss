@@ -1,5 +1,6 @@
 .footer {
     @extend %grid;
+
     color: $white;
     justify-content: space-around;
     flex-direction: column;
@@ -7,22 +8,29 @@
     background-color: $blue;
     padding: 0.5em 0;
 
-     @include respond-to("sm-md") {
-                flex-direction: row;
-            }
 
-	h2{
-		&:hover{
-    	color: $gray;
+    @include respond-to("sm-md") {
+        flex-direction: row;
     }
-	}
-    
+
+    @include respond-to("sm-md") {
+        position: absolute;
+        bottom: 0;
+       width: $col-12;
+    }
+
+
+    h2 {
+        &:hover {
+            color: $gray;
+        }
+    }
 }
 
-svg{
-	fill: $light-gray;
-	&:hover{
-    	fill: $gray;
-    }
+svg {
+    fill: $light-gray;
 
+    &:hover {
+        fill: $gray;
+    }
 }
