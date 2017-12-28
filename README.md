@@ -2,7 +2,7 @@
 
 I took my [Norway Project](https://egyomrey.github.io/Norway-Travel/) and refactored the code to work with PHP and no frameworks.
 
-[Here](https://ibb.co/album/hNjULa) are pictures of this project.
+[DIRECT LINK](https://norway-travel.000webhostapp.com)
 
 ## How to use this project
 
@@ -105,7 +105,7 @@ sass/
 |   |– _footer.scss           
 |   |– _grid.scss     
 |  
-|– vendors/  
+|– pages/  
 |   |– _about.scss
 |   |– _contact.scss
 |   |– _home.scss
