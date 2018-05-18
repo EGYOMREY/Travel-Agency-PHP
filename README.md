@@ -2,7 +2,13 @@
 
 I took my [Norway Project](https://egyomrey.github.io/Norway-Travel/) and refactored the code to work with PHP and no frameworks.
 
-[DIRECT LINK](https://norway-travel.000webhostapp.com)
+[Direct Link](https://norway-travel.000webhostapp.com) :arrow_upper_right:
+
+## Mobile and Desktop version
+| ![image](https://i.imgur.com/483TJKO.png) |
+![image](https://i.imgur.com/Ez6wmZi.png)
+|---|---|
+|*Mobile*|*Desktop*|
 
 ## How to use this project
 
@@ -10,7 +16,6 @@ I took my [Norway Project](https://egyomrey.github.io/Norway-Travel/) and refact
 
 - [NodeJs](https://nodejs.org/en/) (to install dependencies used in the project)
 - A web server to run PHP, in this case I used XAMPP
-- Git
 
 ### Steps to run this project in your computer
 
@@ -31,7 +36,7 @@ I took my [Norway Project](https://egyomrey.github.io/Norway-Travel/) and refact
 
 6. *(This step is optional, it will install all the project's dependencies and use Gulp to open the project in the browser by command).* Open your console and dive into the projects folder exactly to this location `C:\xampp\htdocs\Travel-Agency-PHP` and type `npm install` so you can install all the dependencies I used to develop this project.
 
-7. **If you did step 6**, you can open the project in your browser by: diving into the project's folder with your console, and type `gulp`. A new browser tab will open pointing to `http://localhost:3000/Travel-Agency-PHP/src/` which means that you are now in `index.php`. Enjoy the site!
+7. **If you did step 6**, you can open the project in your browser by: diving into the project's folder with your command line, and type `gulp`. A new browser tab will open pointing to `http://localhost:3000/Travel-Agency-PHP/src/` which means that you are now in `index.php`. Enjoy the site!
 
 8. **If you skipped step 6** you can open the project by typing `http://localhost/Travel-Agency-PHP/src/` in your browser. Enjoy the site!
 
