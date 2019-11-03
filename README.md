@@ -1,9 +1,4 @@
 # Norway Travel Agency
-
-I took my [Norway Project](https://egyomrey.github.io/Norway-Travel/) and refactored the code to work with PHP and no frameworks.
-
-[Direct Link](https://norway-travel.000webhostapp.com) :arrow_upper_right:
-
 ## Mobile and Desktop version
 | ![image](https://i.imgur.com/483TJKO.png) |
 ![image](https://i.imgur.com/Ez6wmZi.png)
